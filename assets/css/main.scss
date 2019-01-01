@@ -1,0 +1,207 @@
+---
+---
+
+//@import url("./theme");
+$primary-bg-1: #5E35B1;
+$primary-bg-2: #006064;
+$primary-font: "Hind";
+
+$gradient-base-direction: random(360);
+
+@mixin normal-gradient($from, $to) {
+    background: linear-gradient($gradient-base-direction + deg, $from, $to);
+}
+
+@mixin elevated-1 {
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600');
+
+.gradient-bg {
+    @include normal-gradient($primary-bg-1, $primary-bg-2);
+}
+
+@mixin laptop {
+    @media (min-width: 800px) { @content };
+}
+
+button, *[button] {
+    background: $primary-bg-1;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    border-style: none;
+    font-family: $primary-font !important;
+    text-decoration: none;
+}
+
+body {
+    font-family: $primary-font !important;
+    font-weight: 400;
+    margin: 0 0;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    title-text {
+        background: linear-gradient(random(360) + deg, $primary-bg-2, $primary-bg-1);
+        background-clip: text;
+        -webkit-background-clip: text;
+        font-size: 13vw;
+        font-family: "IBM Plex Mono", monospace;
+        color: transparent;
+        stroke {
+            -webkit-text-fill-color: #fff;
+            -webkit-text-stroke: 4px transparent;
+        }
+    }
+    subtitle-text {
+        font-size: 1.5rem;
+        margin-top: -5px;
+        text-align: right;
+    }
+}
+
+section[content]:nth-of-type(even) {
+    background: linear-gradient(random(360) + deg, #666, #333);
+}
+
+section[content] {
+    @extend .gradient-bg;
+    padding: 5%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    @include laptop {
+        flex-direction: row;
+        spacer {
+            display: flex;
+            flex-grow: 5;
+            min-width: 40px;
+        }
+    }
+
+    h1 {
+        margin: 10px 10px;
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    div.header-underline {
+        height: 5px;
+        background: linear-gradient(150deg, lighten($primary-bg-2, 20%), lighten($primary-bg-1, 20%));
+    }
+}
+section[content] > p {
+    padding: 10px;
+    @include laptop {
+        text-align: right;
+        max-width: 70%;
+    }
+    spacer {
+        display: block;
+        height: 15px;
+    }
+}
+
+card {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    color: #111;
+    border-radius: 5px;
+    max-width: 400px;
+    padding: 7px;
+    margin: 10px;
+    @include elevated-1();
+
+    h2 {
+        padding: 10px;
+        font-size: 1.2rem;
+        margin: 0 10px;
+    }
+    p {
+        padding: 10px 10px;
+        font-size: 14px;
+        margin: 0 10px;
+        a {
+            text-decoration: none;
+            color: #0055aa;
+        }
+    }
+    a[action] {
+        align-self: flex-end;
+        background: none;
+        text-transform: uppercase;
+        color: $primary-bg-2;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    spacer {
+        flex-grow: 5;
+    }
+}
+
+footer {
+    background: linear-gradient(110deg, #444, #111);
+    color: #bbb;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+
+    .bars {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        a[bar] {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            height: 40px;
+            align-items: center;
+            width: 50%;
+            padding: 10px;
+            transition: all 0.15s ease-in-out;
+
+            @include laptop {
+                width: 25%;
+            }
+
+            img {
+                height: 100%;
+            }
+            label {    
+                color: #eee;
+                font-size: 14px;
+                text-decoration: none;
+                flex-grow: 2;
+                text-align: right;
+                padding: 5px;
+                cursor: pointer;
+            }
+
+        }
+        a[bar]:hover {
+            filter: brightness(0.9);
+        }
+        a[bar]:active {
+            filter: brightness(0.7);
+        }
+    }
+    end {
+        padding: 20px;
+        font-size: 16px;
+        text-align: right;
+    }
+}

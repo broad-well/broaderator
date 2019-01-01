@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Year++</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <big-countdown>
+        <count></count>
+        <p>2019!</p>
+    </big-countdown>
+    <style>
+        body {
+            margin: 0 0;
+        }
+        big-countdown {
+            color: white;
+            background: linear-gradient(125deg, #4f7e9a, #545e2a);
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            box-sizing: content-box;
+            transition: all 0.5s ease-in-out;
+        }
+        count {
+            font-size: 18vw;
+            font-family: "Iosevka", Consolas, Menlo, monospace;
+        }
+        p {
+            font-family: 'Segoe UI', 'Avenir';
+            font-size: 5vw;
+            margin: 0 0;
+        }
+    </style>
+    <script>
+
+        function newGradient(gradient) {
+            const tokens = gradient.split(',');
+            tokens[1] = newColor();
+            tokens[2] = newColor();
+            return tokens.join(',');
+        }
+        function newColor() {
+            const components = new Array(3);
+            for (let i = 0; i < components.length; ++i)
+                components[i] = Math.floor(Math.random() * 256);
+            return `rgb(${components.join(',')})`;
+        }
+
+        function padded(str, len, padding) {
+            if (str.length >= len)
+                return str;
+            return padded(padding + str, len, padding);
+        }
+        function countdownNumber(num) {
+            return padded(num.toString(), 2, '0');
+        }
+
+        let target = new Date(new Date().getFullYear() + 1, 0, 1);
+        const element = document.querySelector("count");
+
+        const task = setInterval(() => {
+
+            const secondOffset = Math.ceil((target - new Date()) / 1000);
+
+            if (secondOffset <= 0) {
+                element.innerText = "Happy New Year!";
+                element.style.fontSize = "10vw";
+                document.querySelector('big-countdown').style.background = '#cc0033';
+                document.querySelector('p').innerText = "Refresh to see the new Broaderator.com";
+                clearInterval(task);
+                clearInterval(messageTask);
+                return;
+            }
+
+            const hour = countdownNumber(Math.floor(secondOffset / 3600));
+            const minute = countdownNumber(Math.floor((secondOffset % 3600) / 60));
+            const second = countdownNumber(secondOffset % 60);
+            const countdownString = `${hour}:${minute}:${second}`;
+
+            element.innerText = countdownString;
+        }, 500);
+
+        const messages = [
+            "year++",
+            "Black Rhombus, est. 2019",
+            "Midterms, anyone?",
+            "Prospero año y felicidad...",
+            "101 * 20 - 1 = ?",
+            "How was 2018?",
+            "What does 2019 mean to you?",
+        ]
+        let mi = 0;
+        const messageTask = setInterval(() => {
+            document.querySelector('p').innerText = messages[mi];
+            mi = (mi + 1) % messages.length;
+        }, 10000);
+    </script>
+</body>
+</html>

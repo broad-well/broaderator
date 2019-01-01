@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="177.11087mm"
+   height="92.207954mm"
+   viewBox="0 0 177.11087 92.207955"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="broadwell.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4619">
+      <stop
+         style="stop-color:#009987;stop-opacity:1"
+         offset="0"
+         id="stop4615" />
+      <stop
+         style="stop-color:#7b00fd;stop-opacity:1"
+         offset="1"
+         id="stop4617" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4619"
+       id="linearGradient4621"
+       x1="42.711308"
+       y1="63.103603"
+       x2="155.5372"
+       y2="124.66647"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-1.0583333)" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4964">
+      <g
+         id="g4996">
+        <g
+           clip-path="none"
+           id="g4994">
+          <g
+             id="g4992"
+             inkscape:label="Clip">
+            <g
+               aria-label="BROADWELL"
+               style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+               id="g4990"
+               transform="translate(-3.0946863,-47.610828)">
+              <g
+                 id="g4986">
+                <g
+                   id="g4984"
+                   mask="none">
+                  <path
+                     d="m 30.212817,146.92816 h 6.8072 c 3.174999,0 5.181599,-2.0066 5.181599,-4.953 0,-2.413 -1.3208,-3.7084 -3.4544,-4.2164 v -0.127 c 1.8034,-0.5334 2.8702,-1.7272 2.8702,-3.7592 0,-2.8702 -1.905,-4.6736 -5.232399,-4.6736 h -6.1722 z m 3.2512,-2.413 v -5.4356 h 2.54 c 1.8542,0 2.793999,0.635 2.793999,2.286 v 0.8382 c 0,1.6764 -0.939799,2.3114 -2.793999,2.3114 z m 0,-7.747 v -5.1562 h 2.1082 c 1.778,0 2.641599,0.5842 2.641599,2.159 v 0.8382 c 0,1.5748 -0.863599,2.159 -2.641599,2.159 z"
+                     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.39999962px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+                     id="path4966"
+                     inkscape:connector-curvature="0" />
+                  <path
+                     d="m 48.770294,140.04476 h 2.0066 l 3.3782,6.8834 h 3.6576 l -3.7846,-7.2644 c 2.2098,-0.4826 3.4798,-2.3876 3.4798,-4.9784 0,-3.3782 -1.905,-5.4864 -5.334,-5.4864 h -6.731 v 17.7292 h 3.3274 z m 0,-2.5908 v -5.5372 h 2.7178 c 1.778,0 2.5146,0.7112 2.5146,2.286 v 0.9652 c 0,1.5748 -0.7366,2.286 -2.5146,2.286 z"
+                     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.39999962px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+                     id="path4968"
+                     inkscape:connector-curvature="0" />
+                  <path
+                     d="m 66.260972,147.23296 c 4.6228,0 6.7056,-3.3782 6.7056,-9.1694 0,-5.7912 -2.0828,-9.1694 -6.7056,-9.1694 -4.6228,0 -6.7056,3.3782 -6.7056,9.1694 0,5.7912 2.0828,9.1694 6.7056,9.1694 z m 0,-2.7178 c -2.3622,0 -3.175,-1.8796 -3.175,-4.9276 v -3.048 c 0,-3.048 0.8128,-4.9276 3.175,-4.9276 2.3622,0 3.175,1.8796 3.175,4.9276 v 3.0226 c 0,3.0734 -0.8128,4.953 -3.175,4.953 z"
+                     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.39999962px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+                     id="path4970"
+                     inkscape:connector-curvature="0" />
+                  <path
+                     d="m 88.806248,146.92816 -5.0038,-17.7292 h -4.6228 l -4.9784,17.7292 h 3.3528 l 1.2192,-4.4958 h 5.2578 l 1.2446,4.4958 z m -5.334,-7.2136 h -4.1148 l 1.9558,-7.239 h 0.2032 z"
+                     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.39999962px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+                     id="path4972"
+                     inkscape:connector-curvature="0" />
+                  <path
+                     d="m 90.955328,146.92816 h 5.5118 c 4.597402,0 6.832602,-3.1242 6.832602,-8.8646 0,-5.7404 -2.2352,-8.8646 -6.832602,-8.8646 h -5.5118 z m 3.2766,-2.667 v -12.3952 h 2.0066 c 2.438399,0 3.581399,1.651 3.581399,4.6482 v 3.0734 c 0,3.0226 -1.143,4.6736 -3.581399,4.6736 z"
+                     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.39999962px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+                     id="path4974"
+                     inkscape:connector-curvature="0" />
+                  <path
+                     d="m 110.27481,146.92816 1.5748,-10.033 h 0.2032 l 1.5748,10.033 h 4.2926 l 1.1938,-17.7292 h -2.7686 l -0.5588,10.2108 -0.2286,4.2164 h -0.2286 l -1.778,-10.3378 h -3.0988 l -1.778,10.3378 h -0.2286 l -0.2286,-4.2164 -0.5588,-10.2108 h -2.8702 l 1.1938,17.7292 z"
+                     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.39999962px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono Semi-Bold';fill:#000000;fill-opacity:1;stroke:#fffff8;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                     id="path4976"
+                     inkscape:connector-curvature="0" />
+                  <path
+                     d="m 132.87088,146.92816 v -2.7432 h -7.874 v -4.8768 h 7.5946 v -2.7432 h -7.5946 v -4.6228 h 7.874 v -2.7432 h -11.2014 v 17.7292 z"
+                     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.39999962px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono Semi-Bold';fill:#000000;fill-opacity:1;stroke:#fffff8;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                     id="path4978"
+                     inkscape:connector-curvature="0" />
+                  <path
+                     d="m 148.50736,146.92816 v -2.7432 h -7.8486 v -14.986 h -3.3274 v 17.7292 z"
+                     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.39999962px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono Semi-Bold';fill:#000000;fill-opacity:1;stroke:#fffff8;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                     id="path4980"
+                     inkscape:connector-curvature="0" />
+                  <path
+                     d="m 163.73744,146.92816 v -2.7432 h -7.8486 v -14.986 h -3.3274 v 17.7292 z"
+                     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.39999962px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono Semi-Bold';fill:#000000;fill-opacity:1;stroke:#fffff8;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                     id="path4982"
+                     inkscape:connector-curvature="0" />
+                </g>
+              </g>
+              <rect
+                 style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 id="rect4988"
+                 width="137.81958"
+                 height="34.537575"
+                 x="28.631697"
+                 y="121.14658" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </mask>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="170.01586"
+     inkscape:cy="141.62675"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="1973"
+     inkscape:window-x="-18"
+     inkscape:window-y="-18"
+     inkscape:window-maximized="1"
+     fit-margin-top="20"
+     fit-margin-left="20"
+     fit-margin-right="20"
+     fit-margin-bottom="20" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.560638,-44.053269)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot10"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;line-height:1.25;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono'"><rect
+           id="rect14"
+           width="545.48236"
+           height="205.06097"
+           x="142.93658"
+           y="470.46622"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'IBM Plex Mono';-inkscape-font-specification:'IBM Plex Mono'" /></flowRegion><flowPara
+         id="flowPara16"></flowPara></flowRoot>    <path
+       style="fill:url(#linearGradient4621);fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 25.560638,64.053269 H 162.67151 V 116.26122 H 25.560638 Z"
+       id="rect4613"
+       inkscape:connector-curvature="0"
+       mask="url(#mask4964)" />
+  </g>
+</svg>

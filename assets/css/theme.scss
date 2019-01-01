@@ -1,0 +1,9 @@
+$primary-bg-1: #5E35B1;
+$primary-bg-2: #006064;
+$primary-font: "Hind";
+
+@mixin normal-gradient($from, $to) {
+    background: linear-gradient(random(360)deg, $from, $to);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500');
