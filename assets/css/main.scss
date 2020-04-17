@@ -4,7 +4,7 @@
 //@import url("./theme");
 $primary-bg-1: #5E35B1;
 $primary-bg-2: #006064;
-$primary-font: "Hind";
+$primary-font: "Inter";
 
 $gradient-base-direction: random(360);
 
@@ -16,7 +16,7 @@ $gradient-base-direction: random(360);
     box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
 }
 
-@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500');
+@import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600');
 
 .gradient-bg {
@@ -41,6 +41,7 @@ body {
     font-family: $primary-font !important;
     font-weight: 400;
     margin: 0 0;
+    line-height: 1.4;
 }
 
 header {
